@@ -43,6 +43,7 @@ print("İslem baslamistir lütfen metni girdiginiz yere gidin ve istediginizi ya
 def esc_kontrol():
     while True:
         if keyboard.is_pressed('esc'):
+            print("Çıkış Yapılıyor ...")
             break
 
         if keyboard.is_pressed('ctrl'):
