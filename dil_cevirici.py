@@ -33,6 +33,8 @@ elif secim == '4':
     deest = 'es'
 elif secim == '5':
     deest = 'de'
+elif secim == '0':
+    deest=input("Dil kodu giriniz ORN(en,fr,ru): ")
 else:
     print("Hatalı Islem")
     quit()
