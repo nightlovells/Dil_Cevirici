@@ -34,7 +34,7 @@ elif secim == '4':
 elif secim == '5':
     deest = 'de'
 elif secim == '0':
-    deest=input("Dil kodu giriniz ORN(en,fr,ru): ")
+    deest=input("Dil kodu giriniz ORN(en,fr,ru,ar...): ")
 else:
     print("Hatalı Islem")
     quit()
